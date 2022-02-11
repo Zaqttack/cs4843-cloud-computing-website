@@ -2,18 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
-
-function LinkTab(props) {
-  return (
-    <Tab
-      component="a"
-      onClick={(event) => {
-        event.preventDefault();
-      }}
-      {...props}
-    />
-  );
-}
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
   const [value, setValue] = React.useState(0);
@@ -23,11 +12,13 @@ export default function NavBar() {
   };
 
   return (
-    <Box sx={{ width: '100%' }}>
-      <Tabs value={value} onChange={handleChange} aria-label="nav tabs example">
-        <LinkTab label="Page One" href="/drafts" />
-        <LinkTab label="Page Two" href="/trash" />
-        <LinkTab label="Page Three" href="/spam" />
+    <Box sx={{ width: '100%', backgroundColor: 'cadetblue' }}>
+      <Tabs value={value} onChange={handleChange} aria-label="nav tabs example" textColor="secondary" indicatorColor="secondary">
+        <Tab label="Ketchup" to="/" component={Link} />
+        <Tab label="Mustard" to="/mustard" component={Link} />
+        <Tab label="Ad" to="/addog" component={Link} />
+        <Tab label="K n M" to="/knm" component={Link} />
+        <Tab label="Relish" to="/relish" component={Link} />
       </Tabs>
     </Box>
   );

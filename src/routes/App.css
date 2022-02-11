@@ -1,0 +1,34 @@
+#ketchup{
+  background-image:
+          url('../assets/images/corndog-ketchup-1.png'),
+          url('../assets/images/corndog-ketchup-2.png'),
+          url('../assets/images/corndog-ketchup-3.png');
+}
+
+#mustard {
+    background-image:
+            url('../assets/images/corndog-mustard-1.png'),
+            url('../assets/images/corndog-mustard-2.png'),
+            url('../assets/images/corndog-mustard-3.png');
+}
+
+#addog {
+    background-image:
+            url('../assets/images/corndog-mustard-1.png'),
+            url('../assets/images/corndog-relish-2.png'),
+            url('../assets/images/corndog-ketchup-3.png');
+}
+
+#knm {
+    background-image:
+            url('../assets/images/corndog-knm-1.png'),
+            url('../assets/images/corndog-knm-2.png'),
+            url('../assets/images/corndog-knm-3.png');
+}
+
+#relish {
+    background-image:
+            url('../assets/images/corndog-relish-1.png'),
+            url('../assets/images/corndog-relish-2.png'),
+            url('../assets/images/corndog-relish-3.png');
+}

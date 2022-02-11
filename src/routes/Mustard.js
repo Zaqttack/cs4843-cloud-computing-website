@@ -1,12 +1,12 @@
 import './App.css';
 import NavBar from "../components/NavBar";
 
-function App() {
+function mustard() {
   return (
-    <div id="corndog">
+    <div id="mustard">
       <NavBar/>
     </div>
   );
 }
 
-export default App;
+export default mustard;
