@@ -1,11 +1,15 @@
 import './App.css';
 import NavBar from "../components/NavBar";
+import VideoCard from "../components/VideoCard";
 
 function Addog() {
   return (
-    <div id="addog">
+    <>
       <NavBar/>
-    </div>
+      <div id="addog">
+        <VideoCard/>
+      </div>
+    </>
   );
 }
 

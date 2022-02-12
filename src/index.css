@@ -13,6 +13,17 @@ code {
     monospace;
 }
 
+#navbar {
+  z-index: 2;
+  position: absolute;
+}
+
+#videocard {
+  z-index: 1;
+  position: absolute;
+  /*margin-top: 10%;*/
+}
+
 #ketchup,
 #mustard,
 #addog,
@@ -23,7 +34,7 @@ code {
   position: absolute;
   top: 0;
   width: 100%;
-  z-index:1;
+  z-index: auto;
   -webkit-animation: corndog 1000s linear infinite;
   -moz-animation: corndog 1000s linear infinite;
   -ms-animation: corndog 1000s linear infinite;

@@ -3,9 +3,10 @@ import NavBar from "../components/NavBar";
 
 function Knm() {
   return (
-    <div id="knm">
+    <>
       <NavBar/>
-    </div>
+      <div id="knm"></div>
+    </>
   );
 }
 

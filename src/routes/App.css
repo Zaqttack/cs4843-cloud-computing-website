@@ -13,6 +13,9 @@
 }
 
 #addog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image:
             url('../assets/images/corndog-mustard-1.png'),
             url('../assets/images/corndog-relish-2.png'),

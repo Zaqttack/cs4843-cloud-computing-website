@@ -3,9 +3,10 @@ import NavBar from "../components/NavBar";
 
 function mustard() {
   return (
-    <div id="mustard">
+    <>
       <NavBar/>
-    </div>
+      <div id="mustard"></div>
+    </>
   );
 }
 

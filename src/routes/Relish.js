@@ -3,9 +3,10 @@ import NavBar from "../components/NavBar";
 
 function Relish() {
   return (
-    <div id="relish">
+    <>
       <NavBar/>
-    </div>
+      <div id="relish"></div>
+    </>
   );
 }
 
